@@ -1,0 +1,70 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 438 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 4998166 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2345 1 43344 0 64
+ciMethod java/util/Map containsKey (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map values ()Ljava/util/Collection; 0 0 1 0 -1
+ciMethod java/util/Map entrySet ()Ljava/util/Set; 0 0 1 0 -1
+ciMethod java/lang/Number <init> ()V 4097 1 70892 0 32
+ciMethod java/lang/Integer valueOf (I)Ljava/lang/Integer; 2729 1 272916 0 192
+ciMethod java/lang/Integer <init> (I)V 2305 1 55760 0 0
+ciMethod java/lang/Integer intValue ()I 1033 1 129 0 -1
+ciMethod java/lang/Integer hashCode ()I 4097 1 8838 0 32
+ciMethod java/lang/Integer hashCode (I)I 4097 1 8838 0 0
+ciMethod java/lang/Integer equals (Ljava/lang/Object;)Z 2105 1 12213 0 128
+ciMethod java/util/Collection contains (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List size ()I 0 0 1 0 -1
+ciMethod java/util/List isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/List contains (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List remove (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List get (I)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/List indexOf (Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethod java/util/List listIterator ()Ljava/util/ListIterator; 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 2049 1 231991 0 32
+ciMethod java/util/AbstractCollection <init> ()V 513 1 506577 0 32
+ciMethod java/util/AbstractCollection isEmpty ()Z 3073 1 29407 0 -1
+ciMethod java/util/ArrayList <init> ()V 1417 1 134431 0 64
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 457 1 235124 0 576
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 457 1 230150 0 544
+ciMethod java/util/ArrayList grow (I)V 113 1 7183 0 544
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 -1
+ciMethod java/util/ArrayList size ()I 1025 1 128 0 0
+ciMethod java/util/ArrayList indexOf (Ljava/lang/Object;)I 2177 17713 5406 0 224
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 10665 1 70542 0 0
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 2129 1 58719 0 128
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 457 1 223796 0 736
+ciMethod java/util/ArrayList rangeCheck (I)V 2129 1 69696 0 64
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 2145 1 6275 0 160
+ciMethod java/util/ArrayList access$000 (Ljava/util/ArrayList;)I 1065 1 133 0 0
+ciMethod java/util/Set iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/AbstractSet <init> ()V 65 1 129550 0 32
+ciMethod java/util/AbstractMap <init> ()V 545 1 141092 0 32
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2089 1 150457 0 160
+ciMethod java/util/HashMap <init> ()V 217 1 107020 0 32
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2049 1 29837 0 640
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2049 1 15648 0 480
+ciMethod java/util/HashMap entrySet ()Ljava/util/Set; 25 1 5123 0 192
+ciMethod java/util/Map$Entry getValue ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map$Entry setValue (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/HashMap$Node getValue ()Ljava/lang/Object; 1473 1 184 0 0
+ciMethod java/util/HashMap$Node setValue (Ljava/lang/Object;)Ljava/lang/Object; 3169 1 1490 0 0
+ciMethod java/lang/Math max (II)I 593 1 404257 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2065 1 20959 0 384
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 2097 1 6410 0 -1
+ciMethodData java/lang/Object <init> ()V 2 4998166 orig 264 56 173 179 102 0 0 0 0 128 4 4 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 177 16 98 2 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 9 1 1 0 -1
+ciMethod java/util/HashSet <init> ()V 17 1 46790 0 192
+ciMethod java/util/ListIterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/ListIterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/ListIterator previousIndex ()I 0 0 1 0 -1
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 150457 orig 264 56 173 179 102 0 0 0 0 160 142 18 22 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 0 0 161 85 18 0 1 0 0 0 197 91 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 7 224 1 0 0 0 0 0 data 13 0x1e007 0x24a90 0x38 0x25 0x50003 0x25 0x48 0x90005 0x1a040 0x2f7a8e0 0x4d5 0x2f7a220 0xa4f5 oops 2
